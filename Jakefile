@@ -1,4 +1,3 @@
-var fs = require('fs');
 var Biscuit = require('../biscuit');
 var couchapp = require('couchapp');
 var config = require( process.env.HOME + '/sdkconfig.js');
