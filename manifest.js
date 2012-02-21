@@ -4,7 +4,7 @@ exports.files = [
 	'src/node_modules/querystring.js',
 	'src/node_modules/events.js',
 	
-	'src/connection/configs.js',
+	'src/configs.js',
 	'src/keys.js',
 	'src/utils/merge.js',
 	'src/utils/loadscript.js',
@@ -18,7 +18,7 @@ exports.files = [
 	'src/connection/connection.js',
 	'src/connection/connection_manager.js',
 	
-	'src/connection/connections.js',
+	'src/connections.js',
 	
 	'src/size.js',
 	'src/format.js',

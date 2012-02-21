@@ -3,7 +3,7 @@
 */
 
 (function(){
-	var ConnectionsManager = require('./connection_manager').connection_manager;
+	var ConnectionsManager = require('./connection/connection_manager').connection_manager;
 	ConnectionsManager = ConnectionsManager.getInstance();
 
 	var configs = require('./configs').configs;
