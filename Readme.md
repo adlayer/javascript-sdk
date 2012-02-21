@@ -1,7 +1,5 @@
+# Adlayer Javascript sdk
 
-# adlayer-js-library
-
-  Adlayer javascript domain library
 
 ## Copyright
 

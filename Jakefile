@@ -1,14 +1,6 @@
-var Biscuit = require('../biscuit');
 var couchapp = require('couchapp');
 var config = require( process.env.HOME + '/sdkconfig.js');
 var connection = config.dev;
-
-var manifest  = require('./manifest');
-
-desc('run default tasks');
-task('default', function(){
-	new Biscuit(manifest);
-});
 
 desc('Deploy files to couchdb');
 task('deploy', function (params) {
@@ -31,8 +23,8 @@ task('push', function (params) {
 		    [ 
 				{from:"/", to:'index.html'},
 				{from:"/tests", to:'tests/integration/index.html'},
-				{from:"/lib/api.js", to:'lib/api.js'},
-				{from:"/lib/api.min.js", to:'lib/api.min.js'},
+				{from:"/lib/api.js", to:'lib/lib/api.js'},
+				{from:"/lib/api.min.js", to:'lib/lib/api.min.js'},
 				{from:"/lib/as3.swf", to:'xframe/as3.swf'}
 		    ]
 	}, url, function(app){
