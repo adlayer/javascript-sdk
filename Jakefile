@@ -22,9 +22,13 @@ task('push', function (params) {
 		rewrites : 
 		    [ 
 				{from:"/", to:'index.html'},
+				
 				{from:"/integration-test", to:'integration-test/index.html'},
+				{from:"/integration-test/*", to:'integration-test/*'},
+				
 				{from:"/lib/api.js", to:'lib/lib/api.js'},
 				{from:"/lib/api.min.js", to:'lib/lib/api.min.js'},
+				
 				{from:"/lib/as3.swf", to:'xframe/as3.swf'}
 		    ]
 	}, url, function(app){
