@@ -1,6 +1,3 @@
 [submodule "lib"]
 	path = lib
 	url = git@github.com:adlayer/javascript-library.git
-[submodule "integration-test"]
-	path = integration-test
-	url = git://github.com/adlayer/javascript-integration-test.git
