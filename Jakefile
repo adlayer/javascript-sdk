@@ -23,7 +23,7 @@ task('push', function (params) {
 		    [ 
 				{from:"/", to:'index.html'},
 				
-				{from:"/integration-test", to:'integration-test/index.html'},
+				{from:"/integration-test", to:'integration-test'},
 				{from:"/integration-test/*", to:'integration-test/*'},
 				
 				{from:"/lib/api.js", to:'lib/lib/api.js'},
