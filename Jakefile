@@ -1,6 +1,7 @@
 var couchapp = require('couchapp');
 var config = require( process.env.HOME + '/sdkconfig');
 var connection = config.dev;
+var routes = require('./routes');
 
 desc('Deploy files to couchdb');
 task('deploy', function (params) {
@@ -19,18 +20,7 @@ task('push', function (params) {
 
 	couchapp.createApp({
 		_id:'_design/sdk',
-		rewrites : 
-		    [ 
-				{from:"/", to:'index.html'},
-				
-				{from:"/integration-test", to:'integration-test'},
-				{from:"/integration-test/*", to:'integration-test/*'},
-				
-				{from:"/lib/api.js", to:'lib/lib/api.js'},
-				{from:"/lib/api.min.js", to:'lib/lib/api.min.js'},
-				
-				{from:"/lib/as3.swf", to:'xframe/as3.swf'}
-		    ]
+		rewrites : routes.routes
 	}, url, function(app){
 		couchapp.loadAttachments(app.current, __dirname);
 		app.push();
