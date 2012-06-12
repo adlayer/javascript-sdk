@@ -1,5 +1,5 @@
 var couchapp = require('couchapp');
-var config = require( process.env.HOME + '/sdkconfig.js');
+var config = require( process.env.HOME + '/sdkconfig');
 var connection = config.dev;
 
 desc('Deploy files to couchdb');
