@@ -1,17 +1,14 @@
-# Adlayer Javascript sdk
+# [Adlayer](http://adlayer.com.br) [Javascript sdk](http://adlayerjavascriptsdk.com)
 
-## Contains some Adlayer javascript tools
-[library](#)
-Adlayer domain centric library cross plataform
-
-[integration-test](#)
-Basic integration test suite. see the [live version](adlayerjavascriptsdk.com/integration-test/index.html)
-
-[doctor.js](#) **next week**
-[loader-helpers](#) **soon**
-[node.js api client](#) **soon**
+## Collection of javascript tools to deal with Adlayer Adserver
+> All tools listed here are also open source
+* Integration Test [live](adlayerjavascriptsdk.com/integration-test/index.html) | code [live](https://github.com/adlayer/javascript-integration-test)
+* Adlayer javascript Library [live](http://adlayerjavascriptsdk.com/lib/api.js) | code [live](https://github.com/adlayer/javascript-library)
+* Doctor.js [code](https://github.com/adlayer/doctor)
+* Loader helpers **Comming soon**
+* Node.js client api **Comming soon**
 
 ## Copyright
 
-Copyright (c) 2011 Adlayer Adserver
+Copyright (c) 2012 Adlayer Adserver
 &lt;adlayer@adlayer.org&gt;
