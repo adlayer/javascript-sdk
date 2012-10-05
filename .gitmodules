@@ -4,3 +4,6 @@
 [submodule "integration-test"]
 	path = integration-test
 	url = git@github.com:adlayer/javascript-integration-test.git
+[submodule "xframe"]
+	path = xframe
+	url = https://github.com/adlayer/xframe.git
