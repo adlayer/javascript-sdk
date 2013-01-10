@@ -7,3 +7,6 @@
 [submodule "xframe"]
 	path = xframe
 	url = https://github.com/adlayer/xframe.git
+[submodule "javascript-api"]
+	path = javascript-api
+	url = git@github.com:adlayer/javascript-api.git
